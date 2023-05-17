@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="="UTF-8 />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="https://storage.googleapis.com/brilli/style.css">
+  
+</head>
+
+ <!-- header -->
+  <header>
+    <div class="jumbotron">
+      <h1>Personal Information</h1>
+    </div>
+
+  <!--navigation -->
+    <nav>
+      <ul>
+        <a href="#about">About</a>
+        <a href="#interest">Interest</a>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+  <!-- Add your profile photo here -->
+  <figure>
+    <img src="https://storage.googleapis.com/brilli/me.jpg" alt="Foto Profil" class= "featured-image">
+  </figure>
+
+  <!--about section -->
+  <section id="interest" class="box center">
+    <article id="about" class="card">
+      <section>
+        <h2 id="about">About me</h2>
+        <p>My name is Brilliannissa Zulfa Kurniawati, and I am currently studying System Information at University Bina Sarana Informatika. Additionally, I am pursuing Cloud Computing through the Bangkit Academy 2023 program, and I'm extremely excited about this opportunity. Although my academic focus is in the field of system information, my true passion lies in baking ,teaching children and exploring the world of cloud computing. I enjoy creating delicious treats and sharing my knowledge with young learners. Through my personal website, I aim to showcase my love for baking and teaching, along with my journey in the field of system information and cloud computing.</p>
+    </article>
+  </section>
+  
+  <!-- interest section -->
+  <section id="interest" class="box center">
+      <article class="card">
+        <h2>Interests</h2>
+        <p>Baking | Teaching children | System Information | Cloud Computing
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hak Cipta © 2023 | Website Brilli</p>
+  </footer>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var mainNav = document.getElementById('main-nav');
+
+    mainNav.addEventListener('click', function() {
+      mainNav.classList.toggle('active');
+    });
+  });
+  </script>
+</body>
+</html>
